@@ -1,0 +1,35 @@
+{% extends 'web/base.html'%}
+{% load static %}
+
+{% block content%}
+<link rel="stylesheet" href="{% static 'css/contact.css'%}">
+<h1>Contact Us</h1>
+<div class="container">
+    <div class="jumbotron">
+        <p>
+            <strong> If you have any query for further information please do not hesitate to contact us.
+        we will be more than happy to furnish it to you.</strong>
+        </p>
+        <hr>
+        <div class="sform">
+            <form method="POST">
+                {% csrf_token %}
+                {{form.as_p}}
+                <input id="button" type="submit" class="btn btn-primary" value="submit">
+            </form>
+        </div>
+        <h3>MORE INFO</h3>
+        <td>23-E, Doctor’s Society,<br />
+          <tr> Head Office:</tr>  <p>Thokar Niaz Baig,Lahore, PAKISTAN.</p>
+           <tr>Factory:</tr><p> Maqbool Road near maqbool masjid Samundri Road Faislabad </p>    
+         
+  
+   
+         </tr>
+        </tbody>
+        </table>
+            <p>website : <a href="#"></a></p>
+            <p>email : <a href="#"></a></p>
+    </div>
+</div>
+{% endblock%}

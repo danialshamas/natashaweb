@@ -1,0 +1,15 @@
+h2 {
+    font-size: 34px;
+    text-align: center;
+    padding: 12px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.jumbotron {
+    border: 1px solid black;
+    border-radius: 30px;
+    margin-top: 60px;
+}

@@ -1,0 +1,22 @@
+h2  {
+    text-align: center;
+    padding: auto;    
+    font-size: 34px;
+}
+table , tr, td{
+    border: 1px solid black;
+    text-align: center;
+
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.jumbotron{
+    margin-top: 20px;
+    border: 1px solid black;    
+}
+
+
